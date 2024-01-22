@@ -8,8 +8,8 @@ export default defineConfig({
    plugins: [
       react(),
       VitePWA({
-         mode: "development",
          manifest,
+         mode: "development",
          registerType: "autoUpdate",
          injectRegister: "auto",
          devOptions: {

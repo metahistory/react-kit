@@ -1,8 +1,11 @@
-export const manifest = {
+import { ManifestOptions } from "vite-plugin-pwa"
+
+export const manifest: Partial<ManifestOptions> = {
    name: "Application",
    short_name: "App",
    description: "...",
    theme_color: "#ffffff",
+   background_color: "#ffffff",
    icons: [
       {
          src: "icon.png",
